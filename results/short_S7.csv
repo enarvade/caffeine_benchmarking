@@ -1,0 +1,490 @@
+Task,Operation,Time,Unit
+[0m
+Metric,Task,Value,Unit
+---------------------------------------------------------------:,-----------------------------------------:,------------:,-------:
+Cumulative indexing time of primary shards,2726.94,min
+Min cumulative indexing time across primary shards,2726.94,min
+Median cumulative indexing time across primary shards,2726.94,min
+Max cumulative indexing time across primary shards,2726.94,min
+Cumulative indexing throttle time of primary shards,0,min
+Min cumulative indexing throttle time across primary shards,0,min
+Median cumulative indexing throttle time across primary shards,0,min
+Max cumulative indexing throttle time across primary shards,0,min
+Cumulative merge time of primary shards,283.542,min
+Cumulative merge count of primary shards,519
+Min cumulative merge time across primary shards,283.542,min
+Median cumulative merge time across primary shards,283.542,min
+Max cumulative merge time across primary shards,283.542,min
+Cumulative merge throttle time of primary shards,145.119,min
+Min cumulative merge throttle time across primary shards,145.119,min
+Median cumulative merge throttle time across primary shards,145.119,min
+Max cumulative merge throttle time across primary shards,145.119,min
+Cumulative refresh time of primary shards,8.1656,min
+Cumulative refresh count of primary shards,381
+Min cumulative refresh time across primary shards,8.1656,min
+Median cumulative refresh time across primary shards,8.1656,min
+Max cumulative refresh time across primary shards,8.1656,min
+Cumulative flush time of primary shards,1.37228,min
+Cumulative flush count of primary shards,37
+Min cumulative flush time across primary shards,1.37228,min
+Median cumulative flush time across primary shards,1.37228,min
+Max cumulative flush time across primary shards,1.37228,min
+Total Young Gen GC time,263.255,s
+Total Young Gen GC count,13872
+Total Old Gen GC time,0,s
+Total Old Gen GC count,0
+Store size,25.0768,GB
+Translog size,5.12227e-08,GB
+Heap used for segments,0,MB
+Heap used for doc values,0,MB
+Heap used for terms,0,MB
+Heap used for norms,0,MB
+Heap used for points,0,MB
+Heap used for stored fields,0,MB
+Segment count,31
+Min Throughput,index,15618.3,docs/s
+Mean Throughput,index,17405.1,docs/s
+Median Throughput,index,16487,docs/s
+Max Throughput,index,28170.8,docs/s
+0th percentile throughput,index,15618.3,ms
+25th percentile throughput,index,15986.2,ms
+50th percentile throughput,index,16486.6,ms
+75th percentile throughput,index,17832.4,ms
+100th percentile throughput,index,28170.8,ms
+0th percentile latency,index,2249.28,ms
+10th percentile latency,index,8349.31,ms
+20th percentile latency,index,8991.18,ms
+25th percentile latency,index,9264.57,ms
+30th percentile latency,index,9460.93,ms
+40th percentile latency,index,9872.43,ms
+50th percentile latency,index,10304.1,ms
+60th percentile latency,index,10686.2,ms
+70th percentile latency,index,11110,ms
+75th percentile latency,index,11355.7,ms
+80th percentile latency,index,11671.6,ms
+90th percentile latency,index,12506.5,ms
+99th percentile latency,index,14123.4,ms
+99.9th percentile latency,index,15328.9,ms
+99.99th percentile latency,index,16256.2,ms
+100th percentile latency,index,16554.8,ms
+50th percentile service time,index,10303.7,ms
+90th percentile service time,index,12503.9,ms
+99th percentile service time,index,14122.6,ms
+99.9th percentile service time,index,15328.9,ms
+99.99th percentile service time,index,16256.2,ms
+100th percentile service time,index,16554.8,ms
+error rate,index,0,%
+Min Throughput,wait-until-merges-finish,0.01,ops/s
+Mean Throughput,wait-until-merges-finish,0.01,ops/s
+Median Throughput,wait-until-merges-finish,0.01,ops/s
+Max Throughput,wait-until-merges-finish,0.01,ops/s
+100th percentile throughput,wait-until-merges-finish,0.00878928,ms
+100th percentile latency,wait-until-merges-finish,113774,ms
+100th percentile service time,wait-until-merges-finish,113774,ms
+error rate,wait-until-merges-finish,0,%
+Min Throughput,cheap-tip-amount,6,ops/s
+Mean Throughput,cheap-tip-amount,6,ops/s
+Median Throughput,cheap-tip-amount,6,ops/s
+Max Throughput,cheap-tip-amount,6,ops/s
+0th percentile throughput,cheap-tip-amount,5.9972,ms
+25th percentile throughput,cheap-tip-amount,5.99963,ms
+50th percentile throughput,cheap-tip-amount,5.9998,ms
+75th percentile throughput,cheap-tip-amount,5.99987,ms
+100th percentile throughput,cheap-tip-amount,5.9999,ms
+0th percentile latency,cheap-tip-amount,1.76103,ms
+10th percentile latency,cheap-tip-amount,4.09014,ms
+20th percentile latency,cheap-tip-amount,4.36339,ms
+25th percentile latency,cheap-tip-amount,4.48135,ms
+30th percentile latency,cheap-tip-amount,4.60016,ms
+40th percentile latency,cheap-tip-amount,4.83041,ms
+50th percentile latency,cheap-tip-amount,5.10478,ms
+60th percentile latency,cheap-tip-amount,5.44095,ms
+70th percentile latency,cheap-tip-amount,5.81646,ms
+75th percentile latency,cheap-tip-amount,6.02533,ms
+80th percentile latency,cheap-tip-amount,6.26127,ms
+90th percentile latency,cheap-tip-amount,6.87829,ms
+99th percentile latency,cheap-tip-amount,9.13829,ms
+99.9th percentile latency,cheap-tip-amount,11.2119,ms
+99.99th percentile latency,cheap-tip-amount,14.1423,ms
+100th percentile latency,cheap-tip-amount,15.9601,ms
+50th percentile service time,cheap-tip-amount,4.02312,ms
+90th percentile service time,cheap-tip-amount,5.82105,ms
+99th percentile service time,cheap-tip-amount,8.09344,ms
+99.9th percentile service time,cheap-tip-amount,10.0674,ms
+99.99th percentile service time,cheap-tip-amount,13.3869,ms
+100th percentile service time,cheap-tip-amount,15.1239,ms
+error rate,cheap-tip-amount,0,%
+Min Throughput,cheap-fare-amount,6,ops/s
+Mean Throughput,cheap-fare-amount,6,ops/s
+Median Throughput,cheap-fare-amount,6,ops/s
+Max Throughput,cheap-fare-amount,6,ops/s
+0th percentile throughput,cheap-fare-amount,5.99716,ms
+25th percentile throughput,cheap-fare-amount,5.99963,ms
+50th percentile throughput,cheap-fare-amount,5.9998,ms
+75th percentile throughput,cheap-fare-amount,5.99986,ms
+100th percentile throughput,cheap-fare-amount,5.9999,ms
+0th percentile latency,cheap-fare-amount,2.36401,ms
+10th percentile latency,cheap-fare-amount,3.88677,ms
+20th percentile latency,cheap-fare-amount,4.18439,ms
+25th percentile latency,cheap-fare-amount,4.30726,ms
+30th percentile latency,cheap-fare-amount,4.41877,ms
+40th percentile latency,cheap-fare-amount,4.64549,ms
+50th percentile latency,cheap-fare-amount,4.87865,ms
+60th percentile latency,cheap-fare-amount,5.15769,ms
+70th percentile latency,cheap-fare-amount,5.50126,ms
+75th percentile latency,cheap-fare-amount,5.71464,ms
+80th percentile latency,cheap-fare-amount,5.98807,ms
+90th percentile latency,cheap-fare-amount,6.70104,ms
+99th percentile latency,cheap-fare-amount,9.24349,ms
+99.9th percentile latency,cheap-fare-amount,11.2144,ms
+99.99th percentile latency,cheap-fare-amount,13.7128,ms
+100th percentile latency,cheap-fare-amount,20.3604,ms
+50th percentile service time,cheap-fare-amount,3.85777,ms
+90th percentile service time,cheap-fare-amount,5.61567,ms
+99th percentile service time,cheap-fare-amount,8.17657,ms
+99.9th percentile service time,cheap-fare-amount,10.2183,ms
+99.99th percentile service time,cheap-fare-amount,12.5817,ms
+100th percentile service time,cheap-fare-amount,19.2416,ms
+error rate,cheap-fare-amount,0,%
+Min Throughput,cheap-total-amount,6,ops/s
+Mean Throughput,cheap-total-amount,6,ops/s
+Median Throughput,cheap-total-amount,6,ops/s
+Max Throughput,cheap-total-amount,6,ops/s
+0th percentile throughput,cheap-total-amount,5.99719,ms
+25th percentile throughput,cheap-total-amount,5.99963,ms
+50th percentile throughput,cheap-total-amount,5.9998,ms
+75th percentile throughput,cheap-total-amount,5.99987,ms
+100th percentile throughput,cheap-total-amount,5.9999,ms
+0th percentile latency,cheap-total-amount,2.1084,ms
+10th percentile latency,cheap-total-amount,4.03389,ms
+20th percentile latency,cheap-total-amount,4.33928,ms
+25th percentile latency,cheap-total-amount,4.46493,ms
+30th percentile latency,cheap-total-amount,4.59407,ms
+40th percentile latency,cheap-total-amount,4.84111,ms
+50th percentile latency,cheap-total-amount,5.12495,ms
+60th percentile latency,cheap-total-amount,5.47739,ms
+70th percentile latency,cheap-total-amount,5.932,ms
+75th percentile latency,cheap-total-amount,6.18138,ms
+80th percentile latency,cheap-total-amount,6.44513,ms
+90th percentile latency,cheap-total-amount,7.0931,ms
+99th percentile latency,cheap-total-amount,9.80735,ms
+99.9th percentile latency,cheap-total-amount,12.2669,ms
+99.99th percentile latency,cheap-total-amount,16.3839,ms
+100th percentile latency,cheap-total-amount,21.8304,ms
+50th percentile service time,cheap-total-amount,4.06431,ms
+90th percentile service time,cheap-total-amount,5.99775,ms
+99th percentile service time,cheap-total-amount,8.72931,ms
+99.9th percentile service time,cheap-total-amount,11.175,ms
+99.99th percentile service time,cheap-total-amount,15.5966,ms
+100th percentile service time,cheap-total-amount,21.0042,ms
+error rate,cheap-total-amount,0,%
+Min Throughput,cheap-pickup,6,ops/s
+Mean Throughput,cheap-pickup,6,ops/s
+Median Throughput,cheap-pickup,6,ops/s
+Max Throughput,cheap-pickup,6,ops/s
+0th percentile throughput,cheap-pickup,5.99717,ms
+25th percentile throughput,cheap-pickup,5.99963,ms
+50th percentile throughput,cheap-pickup,5.9998,ms
+75th percentile throughput,cheap-pickup,5.99986,ms
+100th percentile throughput,cheap-pickup,5.9999,ms
+0th percentile latency,cheap-pickup,3.25967,ms
+10th percentile latency,cheap-pickup,4.97054,ms
+20th percentile latency,cheap-pickup,5.24404,ms
+25th percentile latency,cheap-pickup,5.355,ms
+30th percentile latency,cheap-pickup,5.45814,ms
+40th percentile latency,cheap-pickup,5.66117,ms
+50th percentile latency,cheap-pickup,5.89204,ms
+60th percentile latency,cheap-pickup,6.27922,ms
+70th percentile latency,cheap-pickup,6.88504,ms
+75th percentile latency,cheap-pickup,7.16684,ms
+80th percentile latency,cheap-pickup,7.43969,ms
+90th percentile latency,cheap-pickup,8.00471,ms
+99th percentile latency,cheap-pickup,9.82231,ms
+99.9th percentile latency,cheap-pickup,11.1223,ms
+99.99th percentile latency,cheap-pickup,14.0853,ms
+100th percentile latency,cheap-pickup,17.5347,ms
+50th percentile service time,cheap-pickup,4.86045,ms
+90th percentile service time,cheap-pickup,6.93888,ms
+99th percentile service time,cheap-pickup,8.8339,ms
+99.9th percentile service time,cheap-pickup,10.0617,ms
+99.99th percentile service time,cheap-pickup,12.9408,ms
+100th percentile service time,cheap-pickup,16.2355,ms
+error rate,cheap-pickup,0,%
+Min Throughput,cheap-dropoff,6,ops/s
+Mean Throughput,cheap-dropoff,6,ops/s
+Median Throughput,cheap-dropoff,6,ops/s
+Max Throughput,cheap-dropoff,6,ops/s
+0th percentile throughput,cheap-dropoff,5.99716,ms
+25th percentile throughput,cheap-dropoff,5.99963,ms
+50th percentile throughput,cheap-dropoff,5.9998,ms
+75th percentile throughput,cheap-dropoff,5.99986,ms
+100th percentile throughput,cheap-dropoff,5.9999,ms
+0th percentile latency,cheap-dropoff,3.43784,ms
+10th percentile latency,cheap-dropoff,4.88732,ms
+20th percentile latency,cheap-dropoff,5.13355,ms
+25th percentile latency,cheap-dropoff,5.23388,ms
+30th percentile latency,cheap-dropoff,5.33049,ms
+40th percentile latency,cheap-dropoff,5.53003,ms
+50th percentile latency,cheap-dropoff,5.7794,ms
+60th percentile latency,cheap-dropoff,6.28321,ms
+70th percentile latency,cheap-dropoff,6.93897,ms
+75th percentile latency,cheap-dropoff,7.20198,ms
+80th percentile latency,cheap-dropoff,7.43556,ms
+90th percentile latency,cheap-dropoff,7.94593,ms
+99th percentile latency,cheap-dropoff,9.96228,ms
+99.9th percentile latency,cheap-dropoff,11.1757,ms
+99.99th percentile latency,cheap-dropoff,13.5023,ms
+100th percentile latency,cheap-dropoff,16.1254,ms
+50th percentile service time,cheap-dropoff,4.71462,ms
+90th percentile service time,cheap-dropoff,6.88518,ms
+99th percentile service time,cheap-dropoff,8.96817,ms
+99.9th percentile service time,cheap-dropoff,10.0837,ms
+99.99th percentile service time,cheap-dropoff,12.7713,ms
+100th percentile service time,cheap-dropoff,15.6764,ms
+error rate,cheap-dropoff,0,%
+Min Throughput,autohisto-agg,1.5,ops/s
+Mean Throughput,autohisto-agg,1.5,ops/s
+Median Throughput,autohisto-agg,1.5,ops/s
+Max Throughput,autohisto-agg,1.5,ops/s
+0th percentile throughput,autohisto-agg,1.49947,ms
+25th percentile throughput,autohisto-agg,1.49993,ms
+50th percentile throughput,autohisto-agg,1.49996,ms
+75th percentile throughput,autohisto-agg,1.49997,ms
+100th percentile throughput,autohisto-agg,1.49998,ms
+0th percentile latency,autohisto-agg,7.38693,ms
+10th percentile latency,autohisto-agg,22.7196,ms
+20th percentile latency,autohisto-agg,29.6433,ms
+25th percentile latency,autohisto-agg,33.0635,ms
+30th percentile latency,autohisto-agg,37.0286,ms
+40th percentile latency,autohisto-agg,46.5351,ms
+50th percentile latency,autohisto-agg,58.2334,ms
+60th percentile latency,autohisto-agg,73.2399,ms
+70th percentile latency,autohisto-agg,91.5151,ms
+75th percentile latency,autohisto-agg,102.742,ms
+80th percentile latency,autohisto-agg,115.012,ms
+90th percentile latency,autohisto-agg,147.338,ms
+99th percentile latency,autohisto-agg,196.471,ms
+99.9th percentile latency,autohisto-agg,219.038,ms
+100th percentile latency,autohisto-agg,243.862,ms
+50th percentile service time,autohisto-agg,56.7557,ms
+90th percentile service time,autohisto-agg,145.667,ms
+99th percentile service time,autohisto-agg,194.796,ms
+99.9th percentile service time,autohisto-agg,216.648,ms
+100th percentile service time,autohisto-agg,242.923,ms
+error rate,autohisto-agg,0,%
+Min Throughput,date-histogram-agg,1.5,ops/s
+Mean Throughput,date-histogram-agg,1.5,ops/s
+Median Throughput,date-histogram-agg,1.5,ops/s
+Max Throughput,date-histogram-agg,1.5,ops/s
+0th percentile throughput,date-histogram-agg,1.50011,ms
+25th percentile throughput,date-histogram-agg,1.50014,ms
+50th percentile throughput,date-histogram-agg,1.50021,ms
+75th percentile throughput,date-histogram-agg,1.50039,ms
+100th percentile throughput,date-histogram-agg,1.50299,ms
+0th percentile latency,date-histogram-agg,6.7862,ms
+10th percentile latency,date-histogram-agg,10.6303,ms
+20th percentile latency,date-histogram-agg,12.3938,ms
+25th percentile latency,date-histogram-agg,13.1365,ms
+30th percentile latency,date-histogram-agg,13.955,ms
+40th percentile latency,date-histogram-agg,15.5872,ms
+50th percentile latency,date-histogram-agg,17.3485,ms
+60th percentile latency,date-histogram-agg,19.6181,ms
+70th percentile latency,date-histogram-agg,22.123,ms
+75th percentile latency,date-histogram-agg,23.7798,ms
+80th percentile latency,date-histogram-agg,25.5716,ms
+90th percentile latency,date-histogram-agg,31.4275,ms
+99th percentile latency,date-histogram-agg,49.5437,ms
+99.9th percentile latency,date-histogram-agg,57.4851,ms
+100th percentile latency,date-histogram-agg,59.7649,ms
+50th percentile service time,date-histogram-agg,15.8578,ms
+90th percentile service time,date-histogram-agg,29.8546,ms
+99th percentile service time,date-histogram-agg,48.0649,ms
+99.9th percentile service time,date-histogram-agg,55.9339,ms
+100th percentile service time,date-histogram-agg,58.1737,ms
+error rate,date-histogram-agg,0,%
+Min Throughput,date-histogram-calendar-interval,1.5,ops/s
+Mean Throughput,date-histogram-calendar-interval,1.5,ops/s
+Median Throughput,date-histogram-calendar-interval,1.5,ops/s
+Max Throughput,date-histogram-calendar-interval,1.5,ops/s
+0th percentile throughput,date-histogram-calendar-interval,1.50011,ms
+25th percentile throughput,date-histogram-calendar-interval,1.50014,ms
+50th percentile throughput,date-histogram-calendar-interval,1.50021,ms
+75th percentile throughput,date-histogram-calendar-interval,1.50039,ms
+100th percentile throughput,date-histogram-calendar-interval,1.50298,ms
+0th percentile latency,date-histogram-calendar-interval,6.90751,ms
+10th percentile latency,date-histogram-calendar-interval,9.92466,ms
+20th percentile latency,date-histogram-calendar-interval,10.6189,ms
+25th percentile latency,date-histogram-calendar-interval,10.9676,ms
+30th percentile latency,date-histogram-calendar-interval,11.3138,ms
+40th percentile latency,date-histogram-calendar-interval,12.0366,ms
+50th percentile latency,date-histogram-calendar-interval,12.8547,ms
+60th percentile latency,date-histogram-calendar-interval,14.0344,ms
+70th percentile latency,date-histogram-calendar-interval,14.8757,ms
+75th percentile latency,date-histogram-calendar-interval,15.2625,ms
+80th percentile latency,date-histogram-calendar-interval,15.6571,ms
+90th percentile latency,date-histogram-calendar-interval,16.5487,ms
+99th percentile latency,date-histogram-calendar-interval,18.8085,ms
+99.9th percentile latency,date-histogram-calendar-interval,20.6499,ms
+100th percentile latency,date-histogram-calendar-interval,22.2899,ms
+50th percentile service time,date-histogram-calendar-interval,11.4263,ms
+90th percentile service time,date-histogram-calendar-interval,15.0051,ms
+99th percentile service time,date-histogram-calendar-interval,17.2818,ms
+99.9th percentile service time,date-histogram-calendar-interval,19.1598,ms
+100th percentile service time,date-histogram-calendar-interval,20.6334,ms
+error rate,date-histogram-calendar-interval,0,%
+Min Throughput,date-histogram-calendar-interval-with-tz,1.44,ops/s
+Mean Throughput,date-histogram-calendar-interval-with-tz,1.49,ops/s
+Median Throughput,date-histogram-calendar-interval-with-tz,1.5,ops/s
+Max Throughput,date-histogram-calendar-interval-with-tz,1.5,ops/s
+0th percentile throughput,date-histogram-calendar-interval-with-tz,1.44357,ms
+25th percentile throughput,date-histogram-calendar-interval-with-tz,1.49233,ms
+50th percentile throughput,date-histogram-calendar-interval-with-tz,1.49587,ms
+75th percentile throughput,date-histogram-calendar-interval-with-tz,1.49719,ms
+100th percentile throughput,date-histogram-calendar-interval-with-tz,1.49788,ms
+0th percentile latency,date-histogram-calendar-interval-with-tz,9.06549,ms
+10th percentile latency,date-histogram-calendar-interval-with-tz,57.3691,ms
+20th percentile latency,date-histogram-calendar-interval-with-tz,107.704,ms
+25th percentile latency,date-histogram-calendar-interval-with-tz,136.529,ms
+30th percentile latency,date-histogram-calendar-interval-with-tz,168.936,ms
+40th percentile latency,date-histogram-calendar-interval-with-tz,232.06,ms
+50th percentile latency,date-histogram-calendar-interval-with-tz,309.535,ms
+60th percentile latency,date-histogram-calendar-interval-with-tz,397.425,ms
+70th percentile latency,date-histogram-calendar-interval-with-tz,497.036,ms
+75th percentile latency,date-histogram-calendar-interval-with-tz,557.169,ms
+80th percentile latency,date-histogram-calendar-interval-with-tz,618.761,ms
+90th percentile latency,date-histogram-calendar-interval-with-tz,799.702,ms
+99th percentile latency,date-histogram-calendar-interval-with-tz,1107.94,ms
+99.9th percentile latency,date-histogram-calendar-interval-with-tz,1331.78,ms
+100th percentile latency,date-histogram-calendar-interval-with-tz,1586.78,ms
+50th percentile service time,date-histogram-calendar-interval-with-tz,269.21,ms
+90th percentile service time,date-histogram-calendar-interval-with-tz,754.215,ms
+99th percentile service time,date-histogram-calendar-interval-with-tz,1017.93,ms
+99.9th percentile service time,date-histogram-calendar-interval-with-tz,1120.82,ms
+100th percentile service time,date-histogram-calendar-interval-with-tz,1186.07,ms
+error rate,date-histogram-calendar-interval-with-tz,0,%
+Min Throughput,date-histogram-fixed-interval,1.5,ops/s
+Mean Throughput,date-histogram-fixed-interval,1.5,ops/s
+Median Throughput,date-histogram-fixed-interval,1.5,ops/s
+Max Throughput,date-histogram-fixed-interval,1.5,ops/s
+0th percentile throughput,date-histogram-fixed-interval,1.50011,ms
+25th percentile throughput,date-histogram-fixed-interval,1.50014,ms
+50th percentile throughput,date-histogram-fixed-interval,1.50021,ms
+75th percentile throughput,date-histogram-fixed-interval,1.50039,ms
+100th percentile throughput,date-histogram-fixed-interval,1.50299,ms
+0th percentile latency,date-histogram-fixed-interval,6.74848,ms
+10th percentile latency,date-histogram-fixed-interval,9.68979,ms
+20th percentile latency,date-histogram-fixed-interval,10.4639,ms
+25th percentile latency,date-histogram-fixed-interval,10.8453,ms
+30th percentile latency,date-histogram-fixed-interval,11.2215,ms
+40th percentile latency,date-histogram-fixed-interval,11.968,ms
+50th percentile latency,date-histogram-fixed-interval,13.021,ms
+60th percentile latency,date-histogram-fixed-interval,14.0144,ms
+70th percentile latency,date-histogram-fixed-interval,14.978,ms
+75th percentile latency,date-histogram-fixed-interval,15.4916,ms
+80th percentile latency,date-histogram-fixed-interval,15.997,ms
+90th percentile latency,date-histogram-fixed-interval,17.7213,ms
+99th percentile latency,date-histogram-fixed-interval,20.9868,ms
+99.9th percentile latency,date-histogram-fixed-interval,23.5876,ms
+100th percentile latency,date-histogram-fixed-interval,24.6453,ms
+50th percentile service time,date-histogram-fixed-interval,11.5245,ms
+90th percentile service time,date-histogram-fixed-interval,16.2052,ms
+99th percentile service time,date-histogram-fixed-interval,19.3108,ms
+99.9th percentile service time,date-histogram-fixed-interval,21.7551,ms
+100th percentile service time,date-histogram-fixed-interval,22.6907,ms
+error rate,date-histogram-fixed-interval,0,%
+Min Throughput,date-histogram-fixed-interval-with-tz,1.44,ops/s
+Mean Throughput,date-histogram-fixed-interval-with-tz,1.49,ops/s
+Median Throughput,date-histogram-fixed-interval-with-tz,1.5,ops/s
+Max Throughput,date-histogram-fixed-interval-with-tz,1.5,ops/s
+0th percentile throughput,date-histogram-fixed-interval-with-tz,1.44358,ms
+25th percentile throughput,date-histogram-fixed-interval-with-tz,1.49236,ms
+50th percentile throughput,date-histogram-fixed-interval-with-tz,1.4959,ms
+75th percentile throughput,date-histogram-fixed-interval-with-tz,1.4972,ms
+100th percentile throughput,date-histogram-fixed-interval-with-tz,1.49788,ms
+0th percentile latency,date-histogram-fixed-interval-with-tz,8.39196,ms
+10th percentile latency,date-histogram-fixed-interval-with-tz,46.4922,ms
+20th percentile latency,date-histogram-fixed-interval-with-tz,85.7871,ms
+25th percentile latency,date-histogram-fixed-interval-with-tz,106.228,ms
+30th percentile latency,date-histogram-fixed-interval-with-tz,128.279,ms
+40th percentile latency,date-histogram-fixed-interval-with-tz,183.408,ms
+50th percentile latency,date-histogram-fixed-interval-with-tz,250.385,ms
+60th percentile latency,date-histogram-fixed-interval-with-tz,323.843,ms
+70th percentile latency,date-histogram-fixed-interval-with-tz,407.532,ms
+75th percentile latency,date-histogram-fixed-interval-with-tz,456.616,ms
+80th percentile latency,date-histogram-fixed-interval-with-tz,511.585,ms
+90th percentile latency,date-histogram-fixed-interval-with-tz,644.124,ms
+99th percentile latency,date-histogram-fixed-interval-with-tz,873.015,ms
+99.9th percentile latency,date-histogram-fixed-interval-with-tz,989.409,ms
+100th percentile latency,date-histogram-fixed-interval-with-tz,1234.32,ms
+50th percentile service time,date-histogram-fixed-interval-with-tz,238.28,ms
+90th percentile service time,date-histogram-fixed-interval-with-tz,631.358,ms
+99th percentile service time,date-histogram-fixed-interval-with-tz,855.568,ms
+99.9th percentile service time,date-histogram-fixed-interval-with-tz,924.237,ms
+100th percentile service time,date-histogram-fixed-interval-with-tz,950.847,ms
+error rate,date-histogram-fixed-interval-with-tz,0,%
+Min Throughput,auto-date-histogram,1.5,ops/s
+Mean Throughput,auto-date-histogram,1.5,ops/s
+Median Throughput,auto-date-histogram,1.5,ops/s
+Max Throughput,auto-date-histogram,1.5,ops/s
+0th percentile throughput,auto-date-histogram,1.50007,ms
+25th percentile throughput,auto-date-histogram,1.50009,ms
+50th percentile throughput,auto-date-histogram,1.50013,ms
+75th percentile throughput,auto-date-histogram,1.50025,ms
+100th percentile throughput,auto-date-histogram,1.50193,ms
+0th percentile latency,auto-date-histogram,6.32741,ms
+10th percentile latency,auto-date-histogram,19.2573,ms
+20th percentile latency,auto-date-histogram,22.9813,ms
+25th percentile latency,auto-date-histogram,24.6347,ms
+30th percentile latency,auto-date-histogram,26.5572,ms
+40th percentile latency,auto-date-histogram,32.1847,ms
+50th percentile latency,auto-date-histogram,39.8289,ms
+60th percentile latency,auto-date-histogram,50.1854,ms
+70th percentile latency,auto-date-histogram,63.8087,ms
+75th percentile latency,auto-date-histogram,73.0715,ms
+80th percentile latency,auto-date-histogram,81.3259,ms
+90th percentile latency,auto-date-histogram,101.691,ms
+99th percentile latency,auto-date-histogram,141.35,ms
+99.9th percentile latency,auto-date-histogram,155.031,ms
+100th percentile latency,auto-date-histogram,163.369,ms
+50th percentile service time,auto-date-histogram,38.3784,ms
+90th percentile service time,auto-date-histogram,100.234,ms
+99th percentile service time,auto-date-histogram,140.004,ms
+99.9th percentile service time,auto-date-histogram,153.617,ms
+100th percentile service time,auto-date-histogram,161.718,ms
+error rate,auto-date-histogram,0,%
+Min Throughput,auto-date-histogram-with-tz,1.44,ops/s
+Mean Throughput,auto-date-histogram-with-tz,1.49,ops/s
+Median Throughput,auto-date-histogram-with-tz,1.5,ops/s
+Max Throughput,auto-date-histogram-with-tz,1.5,ops/s
+0th percentile throughput,auto-date-histogram-with-tz,1.4426,ms
+25th percentile throughput,auto-date-histogram-with-tz,1.4923,ms
+50th percentile throughput,auto-date-histogram-with-tz,1.49588,ms
+75th percentile throughput,auto-date-histogram-with-tz,1.49718,ms
+100th percentile throughput,auto-date-histogram-with-tz,1.49786,ms
+0th percentile latency,auto-date-histogram-with-tz,10.2497,ms
+10th percentile latency,auto-date-histogram-with-tz,53.0993,ms
+20th percentile latency,auto-date-histogram-with-tz,91.2569,ms
+25th percentile latency,auto-date-histogram-with-tz,114.878,ms
+30th percentile latency,auto-date-histogram-with-tz,139.643,ms
+40th percentile latency,auto-date-histogram-with-tz,196.014,ms
+50th percentile latency,auto-date-histogram-with-tz,271.959,ms
+60th percentile latency,auto-date-histogram-with-tz,352.768,ms
+70th percentile latency,auto-date-histogram-with-tz,455.665,ms
+75th percentile latency,auto-date-histogram-with-tz,507.598,ms
+80th percentile latency,auto-date-histogram-with-tz,555.571,ms
+90th percentile latency,auto-date-histogram-with-tz,662.844,ms
+99th percentile latency,auto-date-histogram-with-tz,909.364,ms
+99.9th percentile latency,auto-date-histogram-with-tz,1056.03,ms
+100th percentile latency,auto-date-histogram-with-tz,1257.87,ms
+50th percentile service time,auto-date-histogram-with-tz,254.413,ms
+90th percentile service time,auto-date-histogram-with-tz,646.033,ms
+99th percentile service time,auto-date-histogram-with-tz,892.722,ms
+99.9th percentile service time,auto-date-histogram-with-tz,966.234,ms
+100th percentile service time,auto-date-histogram-with-tz,1019.86,ms
+error rate,auto-date-histogram-with-tz,0,%
+
+
+-----------------------------------
+[INFO] SUCCESS (took 19158 seconds)
+-----------------------------------
+kec2-user@ip-172-31-45-144:~/osb/opensearch-benchmark-workloads\[?2004h(.venv) [ec2-user@ip-172-31-45-144 opensearch-benchmark-workloads]$
