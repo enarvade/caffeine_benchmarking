@@ -1,0 +1,500 @@
+    _______             __   _____
+   / ____(_)___  ____ _/ /  / ___/_________  ________
+  / /_  / / __ \/ __ `/ /   \__ \/ ___/ __ \/ ___/ _ \
+ / __/ / / / / / /_/ / /   ___/ / /__/ /_/ / /  /  __/
+/_/   /_/_/ /_/\__,_/_/   /____/\___/\____/_/   \___/
+------------------------------------------------------
+            [0m
+|                                                         Metric |                                     Task |       Value |   Unit |
+|---------------------------------------------------------------:|-----------------------------------------:|------------:|-------:|
+|                     Cumulative indexing time of primary shards |                                          |     2771.13 |    min |
+|             Min cumulative indexing time across primary shards |                                          |     2771.13 |    min |
+|          Median cumulative indexing time across primary shards |                                          |     2771.13 |    min |
+|             Max cumulative indexing time across primary shards |                                          |     2771.13 |    min |
+|            Cumulative indexing throttle time of primary shards |                                          |           0 |    min |
+|    Min cumulative indexing throttle time across primary shards |                                          |           0 |    min |
+| Median cumulative indexing throttle time across primary shards |                                          |           0 |    min |
+|    Max cumulative indexing throttle time across primary shards |                                          |           0 |    min |
+|                        Cumulative merge time of primary shards |                                          |     278.116 |    min |
+|                       Cumulative merge count of primary shards |                                          |         512 |        |
+|                Min cumulative merge time across primary shards |                                          |     278.116 |    min |
+|             Median cumulative merge time across primary shards |                                          |     278.116 |    min |
+|                Max cumulative merge time across primary shards |                                          |     278.116 |    min |
+|               Cumulative merge throttle time of primary shards |                                          |     146.478 |    min |
+|       Min cumulative merge throttle time across primary shards |                                          |     146.478 |    min |
+|    Median cumulative merge throttle time across primary shards |                                          |     146.478 |    min |
+|       Max cumulative merge throttle time across primary shards |                                          |     146.478 |    min |
+|                      Cumulative refresh time of primary shards |                                          |     8.10345 |    min |
+|                     Cumulative refresh count of primary shards |                                          |         381 |        |
+|              Min cumulative refresh time across primary shards |                                          |     8.10345 |    min |
+|           Median cumulative refresh time across primary shards |                                          |     8.10345 |    min |
+|              Max cumulative refresh time across primary shards |                                          |     8.10345 |    min |
+|                        Cumulative flush time of primary shards |                                          |     1.36867 |    min |
+|                       Cumulative flush count of primary shards |                                          |          34 |        |
+|                Min cumulative flush time across primary shards |                                          |     1.36867 |    min |
+|             Median cumulative flush time across primary shards |                                          |     1.36867 |    min |
+|                Max cumulative flush time across primary shards |                                          |     1.36867 |    min |
+|                                        Total Young Gen GC time |                                          |     275.426 |      s |
+|                                       Total Young Gen GC count |                                          |       11283 |        |
+|                                          Total Old Gen GC time |                                          |           0 |      s |
+|                                         Total Old Gen GC count |                                          |           0 |        |
+|                                                     Store size |                                          |     25.0275 |     GB |
+|                                                  Translog size |                                          | 5.12227e-08 |     GB |
+|                                         Heap used for segments |                                          |           0 |     MB |
+|                                       Heap used for doc values |                                          |           0 |     MB |
+|                                            Heap used for terms |                                          |           0 |     MB |
+|                                            Heap used for norms |                                          |           0 |     MB |
+|                                           Heap used for points |                                          |           0 |     MB |
+|                                    Heap used for stored fields |                                          |           0 |     MB |
+|                                                  Segment count |                                          |          34 |        |
+|                                                 Min Throughput |                                    index |     15349.8 | docs/s |
+|                                                Mean Throughput |                                    index |     17149.4 | docs/s |
+|                                              Median Throughput |                                    index |     16339.5 | docs/s |
+|                                                 Max Throughput |                                    index |     27288.3 | docs/s |
+|                                      0th percentile throughput |                                    index |     15349.8 |     ms |
+|                                     25th percentile throughput |                                    index |     15726.5 |     ms |
+|                                     50th percentile throughput |                                    index |       16338 |     ms |
+|                                     75th percentile throughput |                                    index |       17827 |     ms |
+|                                    100th percentile throughput |                                    index |     27288.3 |     ms |
+|                                         0th percentile latency |                                    index |     2156.66 |     ms |
+|                                        10th percentile latency |                                    index |     8353.31 |     ms |
+|                                        20th percentile latency |                                    index |      9113.2 |     ms |
+|                                        25th percentile latency |                                    index |      9457.5 |     ms |
+|                                        30th percentile latency |                                    index |      9723.9 |     ms |
+|                                        40th percentile latency |                                    index |       10139 |     ms |
+|                                        50th percentile latency |                                    index |     10494.7 |     ms |
+|                                        60th percentile latency |                                    index |       10858 |     ms |
+|                                        70th percentile latency |                                    index |       11250 |     ms |
+|                                        75th percentile latency |                                    index |     11494.1 |     ms |
+|                                        80th percentile latency |                                    index |     11797.9 |     ms |
+|                                        90th percentile latency |                                    index |     12612.7 |     ms |
+|                                        99th percentile latency |                                    index |     14323.3 |     ms |
+|                                      99.9th percentile latency |                                    index |       15156 |     ms |
+|                                     99.99th percentile latency |                                    index |     15660.3 |     ms |
+|                                       100th percentile latency |                                    index |     15903.7 |     ms |
+|                                   50th percentile service time |                                    index |     10495.4 |     ms |
+|                                   90th percentile service time |                                    index |     12613.5 |     ms |
+|                                   99th percentile service time |                                    index |     14323.5 |     ms |
+|                                 99.9th percentile service time |                                    index |       15156 |     ms |
+|                                99.99th percentile service time |                                    index |     15660.3 |     ms |
+|                                  100th percentile service time |                                    index |     15903.7 |     ms |
+|                                                     error rate |                                    index |           0 |      % |
+|                                                 Min Throughput |                 wait-until-merges-finish |       71.34 |  ops/s |
+|                                                Mean Throughput |                 wait-until-merges-finish |       71.34 |  ops/s |
+|                                              Median Throughput |                 wait-until-merges-finish |       71.34 |  ops/s |
+|                                                 Max Throughput |                 wait-until-merges-finish |       71.34 |  ops/s |
+|                                    100th percentile throughput |                 wait-until-merges-finish |     71.3378 |     ms |
+|                                       100th percentile latency |                 wait-until-merges-finish |     13.6575 |     ms |
+|                                  100th percentile service time |                 wait-until-merges-finish |     13.6575 |     ms |
+|                                                     error rate |                 wait-until-merges-finish |           0 |      % |
+|                                                 Min Throughput |                         cheap-tip-amount |           6 |  ops/s |
+|                                                Mean Throughput |                         cheap-tip-amount |           6 |  ops/s |
+|                                              Median Throughput |                         cheap-tip-amount |           6 |  ops/s |
+|                                                 Max Throughput |                         cheap-tip-amount |           6 |  ops/s |
+|                                      0th percentile throughput |                         cheap-tip-amount |      5.9992 |     ms |
+|                                     25th percentile throughput |                         cheap-tip-amount |      5.9999 |     ms |
+|                                     50th percentile throughput |                         cheap-tip-amount |     5.99994 |     ms |
+|                                     75th percentile throughput |                         cheap-tip-amount |     5.99996 |     ms |
+|                                    100th percentile throughput |                         cheap-tip-amount |     5.99997 |     ms |
+|                                         0th percentile latency |                         cheap-tip-amount |     1.90751 |     ms |
+|                                        10th percentile latency |                         cheap-tip-amount |     4.53689 |     ms |
+|                                        20th percentile latency |                         cheap-tip-amount |     4.81032 |     ms |
+|                                        25th percentile latency |                         cheap-tip-amount |     4.93081 |     ms |
+|                                        30th percentile latency |                         cheap-tip-amount |     5.04932 |     ms |
+|                                        40th percentile latency |                         cheap-tip-amount |     5.29119 |     ms |
+|                                        50th percentile latency |                         cheap-tip-amount |     5.60359 |     ms |
+|                                        60th percentile latency |                         cheap-tip-amount |     6.09945 |     ms |
+|                                        70th percentile latency |                         cheap-tip-amount |     6.63583 |     ms |
+|                                        75th percentile latency |                         cheap-tip-amount |     6.86522 |     ms |
+|                                        80th percentile latency |                         cheap-tip-amount |     7.10673 |     ms |
+|                                        90th percentile latency |                         cheap-tip-amount |     7.63017 |     ms |
+|                                        99th percentile latency |                         cheap-tip-amount |      9.5332 |     ms |
+|                                      99.9th percentile latency |                         cheap-tip-amount |     12.1451 |     ms |
+|                                     99.99th percentile latency |                         cheap-tip-amount |     14.4565 |     ms |
+|                                       100th percentile latency |                         cheap-tip-amount |     20.8365 |     ms |
+|                                   50th percentile service time |                         cheap-tip-amount |     4.50469 |     ms |
+|                                   90th percentile service time |                         cheap-tip-amount |     6.51554 |     ms |
+|                                   99th percentile service time |                         cheap-tip-amount |     8.31821 |     ms |
+|                                 99.9th percentile service time |                         cheap-tip-amount |     11.0806 |     ms |
+|                                99.99th percentile service time |                         cheap-tip-amount |     13.2725 |     ms |
+|                                  100th percentile service time |                         cheap-tip-amount |     19.5462 |     ms |
+|                                                     error rate |                         cheap-tip-amount |           0 |      % |
+|                                                 Min Throughput |                        cheap-fare-amount |           6 |  ops/s |
+|                                                Mean Throughput |                        cheap-fare-amount |           6 |  ops/s |
+|                                              Median Throughput |                        cheap-fare-amount |           6 |  ops/s |
+|                                                 Max Throughput |                        cheap-fare-amount |           6 |  ops/s |
+|                                      0th percentile throughput |                        cheap-fare-amount |     5.99921 |     ms |
+|                                     25th percentile throughput |                        cheap-fare-amount |      5.9999 |     ms |
+|                                     50th percentile throughput |                        cheap-fare-amount |     5.99994 |     ms |
+|                                     75th percentile throughput |                        cheap-fare-amount |     5.99996 |     ms |
+|                                    100th percentile throughput |                        cheap-fare-amount |     5.99997 |     ms |
+|                                         0th percentile latency |                        cheap-fare-amount |     2.50229 |     ms |
+|                                        10th percentile latency |                        cheap-fare-amount |     4.22265 |     ms |
+|                                        20th percentile latency |                        cheap-fare-amount |     4.53374 |     ms |
+|                                        25th percentile latency |                        cheap-fare-amount |     4.66671 |     ms |
+|                                        30th percentile latency |                        cheap-fare-amount |      4.7975 |     ms |
+|                                        40th percentile latency |                        cheap-fare-amount |     5.05878 |     ms |
+|                                        50th percentile latency |                        cheap-fare-amount |      5.3642 |     ms |
+|                                        60th percentile latency |                        cheap-fare-amount |     5.77975 |     ms |
+|                                        70th percentile latency |                        cheap-fare-amount |     6.26573 |     ms |
+|                                        75th percentile latency |                        cheap-fare-amount |     6.51818 |     ms |
+|                                        80th percentile latency |                        cheap-fare-amount |     6.79414 |     ms |
+|                                        90th percentile latency |                        cheap-fare-amount |     7.43589 |     ms |
+|                                        99th percentile latency |                        cheap-fare-amount |     10.3382 |     ms |
+|                                      99.9th percentile latency |                        cheap-fare-amount |     11.8013 |     ms |
+|                                     99.99th percentile latency |                        cheap-fare-amount |     14.2965 |     ms |
+|                                       100th percentile latency |                        cheap-fare-amount |     21.2244 |     ms |
+|                                   50th percentile service time |                        cheap-fare-amount |     4.26257 |     ms |
+|                                   90th percentile service time |                        cheap-fare-amount |     6.30971 |     ms |
+|                                   99th percentile service time |                        cheap-fare-amount |     9.30904 |     ms |
+|                                 99.9th percentile service time |                        cheap-fare-amount |     10.6764 |     ms |
+|                                99.99th percentile service time |                        cheap-fare-amount |     13.4193 |     ms |
+|                                  100th percentile service time |                        cheap-fare-amount |     19.8939 |     ms |
+|                                                     error rate |                        cheap-fare-amount |           0 |      % |
+|                                                 Min Throughput |                       cheap-total-amount |           6 |  ops/s |
+|                                                Mean Throughput |                       cheap-total-amount |           6 |  ops/s |
+|                                              Median Throughput |                       cheap-total-amount |           6 |  ops/s |
+|                                                 Max Throughput |                       cheap-total-amount |           6 |  ops/s |
+|                                      0th percentile throughput |                       cheap-total-amount |     5.99915 |     ms |
+|                                     25th percentile throughput |                       cheap-total-amount |     5.99989 |     ms |
+|                                     50th percentile throughput |                       cheap-total-amount |     5.99994 |     ms |
+|                                     75th percentile throughput |                       cheap-total-amount |     5.99996 |     ms |
+|                                    100th percentile throughput |                       cheap-total-amount |     5.99997 |     ms |
+|                                         0th percentile latency |                       cheap-total-amount |     2.49317 |     ms |
+|                                        10th percentile latency |                       cheap-total-amount |     4.82513 |     ms |
+|                                        20th percentile latency |                       cheap-total-amount |     5.15847 |     ms |
+|                                        25th percentile latency |                       cheap-total-amount |     5.28901 |     ms |
+|                                        30th percentile latency |                       cheap-total-amount |     5.41111 |     ms |
+|                                        40th percentile latency |                       cheap-total-amount |     5.65102 |     ms |
+|                                        50th percentile latency |                       cheap-total-amount |     5.94016 |     ms |
+|                                        60th percentile latency |                       cheap-total-amount |     6.31807 |     ms |
+|                                        70th percentile latency |                       cheap-total-amount |     6.84488 |     ms |
+|                                        75th percentile latency |                       cheap-total-amount |     7.10809 |     ms |
+|                                        80th percentile latency |                       cheap-total-amount |     7.37412 |     ms |
+|                                        90th percentile latency |                       cheap-total-amount |     8.05089 |     ms |
+|                                        99th percentile latency |                       cheap-total-amount |     10.8975 |     ms |
+|                                      99.9th percentile latency |                       cheap-total-amount |     13.6735 |     ms |
+|                                     99.99th percentile latency |                       cheap-total-amount |     17.6495 |     ms |
+|                                       100th percentile latency |                       cheap-total-amount |     39.6394 |     ms |
+|                                   50th percentile service time |                       cheap-total-amount |     4.86446 |     ms |
+|                                   90th percentile service time |                       cheap-total-amount |     6.91621 |     ms |
+|                                   99th percentile service time |                       cheap-total-amount |     9.80668 |     ms |
+|                                 99.9th percentile service time |                       cheap-total-amount |     12.6245 |     ms |
+|                                99.99th percentile service time |                       cheap-total-amount |     16.7427 |     ms |
+|                                  100th percentile service time |                       cheap-total-amount |     38.9684 |     ms |
+|                                                     error rate |                       cheap-total-amount |           0 |      % |
+|                                                 Min Throughput |                             cheap-pickup |           6 |  ops/s |
+|                                                Mean Throughput |                             cheap-pickup |           6 |  ops/s |
+|                                              Median Throughput |                             cheap-pickup |           6 |  ops/s |
+|                                                 Max Throughput |                             cheap-pickup |           6 |  ops/s |
+|                                      0th percentile throughput |                             cheap-pickup |     5.99917 |     ms |
+|                                     25th percentile throughput |                             cheap-pickup |     5.99989 |     ms |
+|                                     50th percentile throughput |                             cheap-pickup |     5.99994 |     ms |
+|                                     75th percentile throughput |                             cheap-pickup |     5.99996 |     ms |
+|                                    100th percentile throughput |                             cheap-pickup |     5.99997 |     ms |
+|                                         0th percentile latency |                             cheap-pickup |     3.82904 |     ms |
+|                                        10th percentile latency |                             cheap-pickup |     5.56281 |     ms |
+|                                        20th percentile latency |                             cheap-pickup |     5.82834 |     ms |
+|                                        25th percentile latency |                             cheap-pickup |     5.93749 |     ms |
+|                                        30th percentile latency |                             cheap-pickup |     6.04618 |     ms |
+|                                        40th percentile latency |                             cheap-pickup |     6.26001 |     ms |
+|                                        50th percentile latency |                             cheap-pickup |     6.53745 |     ms |
+|                                        60th percentile latency |                             cheap-pickup |     7.36672 |     ms |
+|                                        70th percentile latency |                             cheap-pickup |     8.19408 |     ms |
+|                                        75th percentile latency |                             cheap-pickup |     8.48785 |     ms |
+|                                        80th percentile latency |                             cheap-pickup |     8.74961 |     ms |
+|                                        90th percentile latency |                             cheap-pickup |     9.27222 |     ms |
+|                                        99th percentile latency |                             cheap-pickup |     10.2532 |     ms |
+|                                      99.9th percentile latency |                             cheap-pickup |     13.3317 |     ms |
+|                                     99.99th percentile latency |                             cheap-pickup |     15.2245 |     ms |
+|                                       100th percentile latency |                             cheap-pickup |     32.4369 |     ms |
+|                                   50th percentile service time |                             cheap-pickup |     5.37544 |     ms |
+|                                   90th percentile service time |                             cheap-pickup |     8.23431 |     ms |
+|                                   99th percentile service time |                             cheap-pickup |     8.88645 |     ms |
+|                                 99.9th percentile service time |                             cheap-pickup |     12.1882 |     ms |
+|                                99.99th percentile service time |                             cheap-pickup |     13.9686 |     ms |
+|                                  100th percentile service time |                             cheap-pickup |     30.9912 |     ms |
+|                                                     error rate |                             cheap-pickup |           0 |      % |
+|                                                 Min Throughput |                            cheap-dropoff |           6 |  ops/s |
+|                                                Mean Throughput |                            cheap-dropoff |           6 |  ops/s |
+|                                              Median Throughput |                            cheap-dropoff |           6 |  ops/s |
+|                                                 Max Throughput |                            cheap-dropoff |           6 |  ops/s |
+|                                      0th percentile throughput |                            cheap-dropoff |     5.99915 |     ms |
+|                                     25th percentile throughput |                            cheap-dropoff |     5.99989 |     ms |
+|                                     50th percentile throughput |                            cheap-dropoff |     5.99994 |     ms |
+|                                     75th percentile throughput |                            cheap-dropoff |     5.99996 |     ms |
+|                                    100th percentile throughput |                            cheap-dropoff |     5.99997 |     ms |
+|                                         0th percentile latency |                            cheap-dropoff |     3.72051 |     ms |
+|                                        10th percentile latency |                            cheap-dropoff |     5.80312 |     ms |
+|                                        20th percentile latency |                            cheap-dropoff |     6.07119 |     ms |
+|                                        25th percentile latency |                            cheap-dropoff |      6.1784 |     ms |
+|                                        30th percentile latency |                            cheap-dropoff |     6.28545 |     ms |
+|                                        40th percentile latency |                            cheap-dropoff |     6.49971 |     ms |
+|                                        50th percentile latency |                            cheap-dropoff |     6.77111 |     ms |
+|                                        60th percentile latency |                            cheap-dropoff |     7.44629 |     ms |
+|                                        70th percentile latency |                            cheap-dropoff |     8.23152 |     ms |
+|                                        75th percentile latency |                            cheap-dropoff |     8.50967 |     ms |
+|                                        80th percentile latency |                            cheap-dropoff |     8.78181 |     ms |
+|                                        90th percentile latency |                            cheap-dropoff |     9.30716 |     ms |
+|                                        99th percentile latency |                            cheap-dropoff |     10.2338 |     ms |
+|                                      99.9th percentile latency |                            cheap-dropoff |     13.1024 |     ms |
+|                                     99.99th percentile latency |                            cheap-dropoff |     14.0444 |     ms |
+|                                       100th percentile latency |                            cheap-dropoff |     20.6488 |     ms |
+|                                   50th percentile service time |                            cheap-dropoff |     5.67047 |     ms |
+|                                   90th percentile service time |                            cheap-dropoff |     8.22976 |     ms |
+|                                   99th percentile service time |                            cheap-dropoff |     9.07405 |     ms |
+|                                 99.9th percentile service time |                            cheap-dropoff |     11.9796 |     ms |
+|                                99.99th percentile service time |                            cheap-dropoff |     12.9614 |     ms |
+|                                  100th percentile service time |                            cheap-dropoff |     19.2904 |     ms |
+|                                                     error rate |                            cheap-dropoff |           0 |      % |
+|                                                 Min Throughput |                            autohisto-agg |         1.5 |  ops/s |
+|                                                Mean Throughput |                            autohisto-agg |         1.5 |  ops/s |
+|                                              Median Throughput |                            autohisto-agg |         1.5 |  ops/s |
+|                                                 Max Throughput |                            autohisto-agg |         1.5 |  ops/s |
+|                                      0th percentile throughput |                            autohisto-agg |     1.50011 |     ms |
+|                                     25th percentile throughput |                            autohisto-agg |     1.50014 |     ms |
+|                                     50th percentile throughput |                            autohisto-agg |     1.50021 |     ms |
+|                                     75th percentile throughput |                            autohisto-agg |     1.50039 |     ms |
+|                                    100th percentile throughput |                            autohisto-agg |     1.50297 |     ms |
+|                                         0th percentile latency |                            autohisto-agg |     7.88796 |     ms |
+|                                        10th percentile latency |                            autohisto-agg |     26.5222 |     ms |
+|                                        20th percentile latency |                            autohisto-agg |     36.6836 |     ms |
+|                                        25th percentile latency |                            autohisto-agg |     40.5948 |     ms |
+|                                        30th percentile latency |                            autohisto-agg |     44.8056 |     ms |
+|                                        40th percentile latency |                            autohisto-agg |     56.9721 |     ms |
+|                                        50th percentile latency |                            autohisto-agg |     71.1951 |     ms |
+|                                        60th percentile latency |                            autohisto-agg |     88.9462 |     ms |
+|                                        70th percentile latency |                            autohisto-agg |     111.786 |     ms |
+|                                        75th percentile latency |                            autohisto-agg |     125.225 |     ms |
+|                                        80th percentile latency |                            autohisto-agg |     139.122 |     ms |
+|                                        90th percentile latency |                            autohisto-agg |     180.196 |     ms |
+|                                        99th percentile latency |                            autohisto-agg |     233.464 |     ms |
+|                                      99.9th percentile latency |                            autohisto-agg |     259.837 |     ms |
+|                                       100th percentile latency |                            autohisto-agg |     275.828 |     ms |
+|                                   50th percentile service time |                            autohisto-agg |     69.6569 |     ms |
+|                                   90th percentile service time |                            autohisto-agg |     178.614 |     ms |
+|                                   99th percentile service time |                            autohisto-agg |     231.922 |     ms |
+|                                 99.9th percentile service time |                            autohisto-agg |     258.478 |     ms |
+|                                  100th percentile service time |                            autohisto-agg |     274.429 |     ms |
+|                                                     error rate |                            autohisto-agg |           0 |      % |
+|                                                 Min Throughput |                       date-histogram-agg |         1.5 |  ops/s |
+|                                                Mean Throughput |                       date-histogram-agg |         1.5 |  ops/s |
+|                                              Median Throughput |                       date-histogram-agg |         1.5 |  ops/s |
+|                                                 Max Throughput |                       date-histogram-agg |         1.5 |  ops/s |
+|                                      0th percentile throughput |                       date-histogram-agg |     1.50013 |     ms |
+|                                     25th percentile throughput |                       date-histogram-agg |     1.50017 |     ms |
+|                                     50th percentile throughput |                       date-histogram-agg |     1.50024 |     ms |
+|                                     75th percentile throughput |                       date-histogram-agg |     1.50045 |     ms |
+|                                    100th percentile throughput |                       date-histogram-agg |     1.50348 |     ms |
+|                                         0th percentile latency |                       date-histogram-agg |     6.82946 |     ms |
+|                                        10th percentile latency |                       date-histogram-agg |      13.041 |     ms |
+|                                        20th percentile latency |                       date-histogram-agg |     15.4982 |     ms |
+|                                        25th percentile latency |                       date-histogram-agg |     16.5113 |     ms |
+|                                        30th percentile latency |                       date-histogram-agg |     17.6258 |     ms |
+|                                        40th percentile latency |                       date-histogram-agg |     20.1559 |     ms |
+|                                        50th percentile latency |                       date-histogram-agg |     22.5298 |     ms |
+|                                        60th percentile latency |                       date-histogram-agg |     25.4926 |     ms |
+|                                        70th percentile latency |                       date-histogram-agg |     29.0782 |     ms |
+|                                        75th percentile latency |                       date-histogram-agg |     31.5984 |     ms |
+|                                        80th percentile latency |                       date-histogram-agg |     34.1747 |     ms |
+|                                        90th percentile latency |                       date-histogram-agg |     42.5332 |     ms |
+|                                        99th percentile latency |                       date-histogram-agg |     66.2907 |     ms |
+|                                      99.9th percentile latency |                       date-histogram-agg |     78.2302 |     ms |
+|                                       100th percentile latency |                       date-histogram-agg |      82.696 |     ms |
+|                                   50th percentile service time |                       date-histogram-agg |     21.0295 |     ms |
+|                                   90th percentile service time |                       date-histogram-agg |     41.0396 |     ms |
+|                                   99th percentile service time |                       date-histogram-agg |     64.7655 |     ms |
+|                                 99.9th percentile service time |                       date-histogram-agg |     76.6484 |     ms |
+|                                  100th percentile service time |                       date-histogram-agg |     81.1043 |     ms |
+|                                                     error rate |                       date-histogram-agg |           0 |      % |
+|                                                 Min Throughput |         date-histogram-calendar-interval |         1.5 |  ops/s |
+|                                                Mean Throughput |         date-histogram-calendar-interval |         1.5 |  ops/s |
+|                                              Median Throughput |         date-histogram-calendar-interval |         1.5 |  ops/s |
+|                                                 Max Throughput |         date-histogram-calendar-interval |         1.5 |  ops/s |
+|                                      0th percentile throughput |         date-histogram-calendar-interval |     1.50013 |     ms |
+|                                     25th percentile throughput |         date-histogram-calendar-interval |     1.50017 |     ms |
+|                                     50th percentile throughput |         date-histogram-calendar-interval |     1.50024 |     ms |
+|                                     75th percentile throughput |         date-histogram-calendar-interval |     1.50046 |     ms |
+|                                    100th percentile throughput |         date-histogram-calendar-interval |     1.50349 |     ms |
+|                                         0th percentile latency |         date-histogram-calendar-interval |     7.48711 |     ms |
+|                                        10th percentile latency |         date-histogram-calendar-interval |     11.5582 |     ms |
+|                                        20th percentile latency |         date-histogram-calendar-interval |     12.2082 |     ms |
+|                                        25th percentile latency |         date-histogram-calendar-interval |     12.6271 |     ms |
+|                                        30th percentile latency |         date-histogram-calendar-interval |      13.123 |     ms |
+|                                        40th percentile latency |         date-histogram-calendar-interval |     13.9079 |     ms |
+|                                        50th percentile latency |         date-histogram-calendar-interval |       14.63 |     ms |
+|                                        60th percentile latency |         date-histogram-calendar-interval |     17.0786 |     ms |
+|                                        70th percentile latency |         date-histogram-calendar-interval |     18.2809 |     ms |
+|                                        75th percentile latency |         date-histogram-calendar-interval |     18.6414 |     ms |
+|                                        80th percentile latency |         date-histogram-calendar-interval |      18.959 |     ms |
+|                                        90th percentile latency |         date-histogram-calendar-interval |     19.5864 |     ms |
+|                                        99th percentile latency |         date-histogram-calendar-interval |     21.3557 |     ms |
+|                                      99.9th percentile latency |         date-histogram-calendar-interval |     24.6125 |     ms |
+|                                       100th percentile latency |         date-histogram-calendar-interval |     32.5436 |     ms |
+|                                   50th percentile service time |         date-histogram-calendar-interval |     13.0827 |     ms |
+|                                   90th percentile service time |         date-histogram-calendar-interval |     18.0247 |     ms |
+|                                   99th percentile service time |         date-histogram-calendar-interval |     19.9383 |     ms |
+|                                 99.9th percentile service time |         date-histogram-calendar-interval |     23.0121 |     ms |
+|                                  100th percentile service time |         date-histogram-calendar-interval |     31.0393 |     ms |
+|                                                     error rate |         date-histogram-calendar-interval |           0 |      % |
+|                                                 Min Throughput | date-histogram-calendar-interval-with-tz |        1.49 |  ops/s |
+|                                                Mean Throughput | date-histogram-calendar-interval-with-tz |         1.5 |  ops/s |
+|                                              Median Throughput | date-histogram-calendar-interval-with-tz |         1.5 |  ops/s |
+|                                                 Max Throughput | date-histogram-calendar-interval-with-tz |         1.5 |  ops/s |
+|                                      0th percentile throughput | date-histogram-calendar-interval-with-tz |     1.48656 |     ms |
+|                                     25th percentile throughput | date-histogram-calendar-interval-with-tz |     1.49842 |     ms |
+|                                     50th percentile throughput | date-histogram-calendar-interval-with-tz |     1.49914 |     ms |
+|                                     75th percentile throughput | date-histogram-calendar-interval-with-tz |     1.49942 |     ms |
+|                                    100th percentile throughput | date-histogram-calendar-interval-with-tz |     1.49958 |     ms |
+|                                         0th percentile latency | date-histogram-calendar-interval-with-tz |     9.57585 |     ms |
+|                                        10th percentile latency | date-histogram-calendar-interval-with-tz |     59.6724 |     ms |
+|                                        20th percentile latency | date-histogram-calendar-interval-with-tz |     111.792 |     ms |
+|                                        25th percentile latency | date-histogram-calendar-interval-with-tz |     141.434 |     ms |
+|                                        30th percentile latency | date-histogram-calendar-interval-with-tz |     177.767 |     ms |
+|                                        40th percentile latency | date-histogram-calendar-interval-with-tz |     257.591 |     ms |
+|                                        50th percentile latency | date-histogram-calendar-interval-with-tz |     336.692 |     ms |
+|                                        60th percentile latency | date-histogram-calendar-interval-with-tz |      440.73 |     ms |
+|                                        70th percentile latency | date-histogram-calendar-interval-with-tz |     554.886 |     ms |
+|                                        75th percentile latency | date-histogram-calendar-interval-with-tz |     620.976 |     ms |
+|                                        80th percentile latency | date-histogram-calendar-interval-with-tz |     697.906 |     ms |
+|                                        90th percentile latency | date-histogram-calendar-interval-with-tz |     881.093 |     ms |
+|                                        99th percentile latency | date-histogram-calendar-interval-with-tz |     1258.79 |     ms |
+|                                      99.9th percentile latency | date-histogram-calendar-interval-with-tz |     1541.09 |     ms |
+|                                       100th percentile latency | date-histogram-calendar-interval-with-tz |     1804.33 |     ms |
+|                                   50th percentile service time | date-histogram-calendar-interval-with-tz |     288.552 |     ms |
+|                                   90th percentile service time | date-histogram-calendar-interval-with-tz |     801.775 |     ms |
+|                                   99th percentile service time | date-histogram-calendar-interval-with-tz |     1102.85 |     ms |
+|                                 99.9th percentile service time | date-histogram-calendar-interval-with-tz |     1190.82 |     ms |
+|                                  100th percentile service time | date-histogram-calendar-interval-with-tz |      1221.4 |     ms |
+|                                                     error rate | date-histogram-calendar-interval-with-tz |           0 |      % |
+|                                                 Min Throughput |            date-histogram-fixed-interval |         1.5 |  ops/s |
+|                                                Mean Throughput |            date-histogram-fixed-interval |         1.5 |  ops/s |
+|                                              Median Throughput |            date-histogram-fixed-interval |         1.5 |  ops/s |
+|                                                 Max Throughput |            date-histogram-fixed-interval |         1.5 |  ops/s |
+|                                      0th percentile throughput |            date-histogram-fixed-interval |     1.50013 |     ms |
+|                                     25th percentile throughput |            date-histogram-fixed-interval |     1.50017 |     ms |
+|                                     50th percentile throughput |            date-histogram-fixed-interval |     1.50024 |     ms |
+|                                     75th percentile throughput |            date-histogram-fixed-interval |     1.50045 |     ms |
+|                                    100th percentile throughput |            date-histogram-fixed-interval |     1.50348 |     ms |
+|                                         0th percentile latency |            date-histogram-fixed-interval |      7.0703 |     ms |
+|                                        10th percentile latency |            date-histogram-fixed-interval |     11.7752 |     ms |
+|                                        20th percentile latency |            date-histogram-fixed-interval |     12.6787 |     ms |
+|                                        25th percentile latency |            date-histogram-fixed-interval |     13.4024 |     ms |
+|                                        30th percentile latency |            date-histogram-fixed-interval |     13.8743 |     ms |
+|                                        40th percentile latency |            date-histogram-fixed-interval |      14.628 |     ms |
+|                                        50th percentile latency |            date-histogram-fixed-interval |     15.6026 |     ms |
+|                                        60th percentile latency |            date-histogram-fixed-interval |     17.1567 |     ms |
+|                                        70th percentile latency |            date-histogram-fixed-interval |     18.1518 |     ms |
+|                                        75th percentile latency |            date-histogram-fixed-interval |     18.5824 |     ms |
+|                                        80th percentile latency |            date-histogram-fixed-interval |     18.9835 |     ms |
+|                                        90th percentile latency |            date-histogram-fixed-interval |     21.8052 |     ms |
+|                                        99th percentile latency |            date-histogram-fixed-interval |     25.1327 |     ms |
+|                                      99.9th percentile latency |            date-histogram-fixed-interval |     28.1199 |     ms |
+|                                       100th percentile latency |            date-histogram-fixed-interval |      35.567 |     ms |
+|                                   50th percentile service time |            date-histogram-fixed-interval |     14.0619 |     ms |
+|                                   90th percentile service time |            date-histogram-fixed-interval |     20.3294 |     ms |
+|                                   99th percentile service time |            date-histogram-fixed-interval |     23.6002 |     ms |
+|                                 99.9th percentile service time |            date-histogram-fixed-interval |     26.4604 |     ms |
+|                                  100th percentile service time |            date-histogram-fixed-interval |     33.7945 |     ms |
+|                                                     error rate |            date-histogram-fixed-interval |           0 |      % |
+|                                                 Min Throughput |    date-histogram-fixed-interval-with-tz |        1.47 |  ops/s |
+|                                                Mean Throughput |    date-histogram-fixed-interval-with-tz |         1.5 |  ops/s |
+|                                              Median Throughput |    date-histogram-fixed-interval-with-tz |         1.5 |  ops/s |
+|                                                 Max Throughput |    date-histogram-fixed-interval-with-tz |         1.5 |  ops/s |
+|                                      0th percentile throughput |    date-histogram-fixed-interval-with-tz |     1.47118 |     ms |
+|                                     25th percentile throughput |    date-histogram-fixed-interval-with-tz |     1.49615 |     ms |
+|                                     50th percentile throughput |    date-histogram-fixed-interval-with-tz |     1.49793 |     ms |
+|                                     75th percentile throughput |    date-histogram-fixed-interval-with-tz |     1.49859 |     ms |
+|                                    100th percentile throughput |    date-histogram-fixed-interval-with-tz |     1.49894 |     ms |
+|                                         0th percentile latency |    date-histogram-fixed-interval-with-tz |     9.33265 |     ms |
+|                                        10th percentile latency |    date-histogram-fixed-interval-with-tz |     47.6977 |     ms |
+|                                        20th percentile latency |    date-histogram-fixed-interval-with-tz |     89.8772 |     ms |
+|                                        25th percentile latency |    date-histogram-fixed-interval-with-tz |     112.548 |     ms |
+|                                        30th percentile latency |    date-histogram-fixed-interval-with-tz |     137.551 |     ms |
+|                                        40th percentile latency |    date-histogram-fixed-interval-with-tz |     197.723 |     ms |
+|                                        50th percentile latency |    date-histogram-fixed-interval-with-tz |     265.581 |     ms |
+|                                        60th percentile latency |    date-histogram-fixed-interval-with-tz |      342.08 |     ms |
+|                                        70th percentile latency |    date-histogram-fixed-interval-with-tz |     434.453 |     ms |
+|                                        75th percentile latency |    date-histogram-fixed-interval-with-tz |     483.708 |     ms |
+|                                        80th percentile latency |    date-histogram-fixed-interval-with-tz |     542.574 |     ms |
+|                                        90th percentile latency |    date-histogram-fixed-interval-with-tz |     692.408 |     ms |
+|                                        99th percentile latency |    date-histogram-fixed-interval-with-tz |      927.93 |     ms |
+|                                      99.9th percentile latency |    date-histogram-fixed-interval-with-tz |     1110.26 |     ms |
+|                                       100th percentile latency |    date-histogram-fixed-interval-with-tz |     1286.21 |     ms |
+|                                   50th percentile service time |    date-histogram-fixed-interval-with-tz |     245.131 |     ms |
+|                                   90th percentile service time |    date-histogram-fixed-interval-with-tz |     665.046 |     ms |
+|                                   99th percentile service time |    date-histogram-fixed-interval-with-tz |     900.191 |     ms |
+|                                 99.9th percentile service time |    date-histogram-fixed-interval-with-tz |     982.924 |     ms |
+|                                  100th percentile service time |    date-histogram-fixed-interval-with-tz |     1033.34 |     ms |
+|                                                     error rate |    date-histogram-fixed-interval-with-tz |           0 |      % |
+|                                                 Min Throughput |                      auto-date-histogram |         1.5 |  ops/s |
+|                                                Mean Throughput |                      auto-date-histogram |         1.5 |  ops/s |
+|                                              Median Throughput |                      auto-date-histogram |         1.5 |  ops/s |
+|                                                 Max Throughput |                      auto-date-histogram |         1.5 |  ops/s |
+|                                      0th percentile throughput |                      auto-date-histogram |     1.50009 |     ms |
+|                                     25th percentile throughput |                      auto-date-histogram |     1.50012 |     ms |
+|                                     50th percentile throughput |                      auto-date-histogram |     1.50017 |     ms |
+|                                     75th percentile throughput |                      auto-date-histogram |     1.50032 |     ms |
+|                                    100th percentile throughput |                      auto-date-histogram |     1.50241 |     ms |
+|                                         0th percentile latency |                      auto-date-histogram |     7.60303 |     ms |
+|                                        10th percentile latency |                      auto-date-histogram |     23.4166 |     ms |
+|                                        20th percentile latency |                      auto-date-histogram |     30.0329 |     ms |
+|                                        25th percentile latency |                      auto-date-histogram |     32.5601 |     ms |
+|                                        30th percentile latency |                      auto-date-histogram |     35.1751 |     ms |
+|                                        40th percentile latency |                      auto-date-histogram |     41.2647 |     ms |
+|                                        50th percentile latency |                      auto-date-histogram |     49.6691 |     ms |
+|                                        60th percentile latency |                      auto-date-histogram |     60.2686 |     ms |
+|                                        70th percentile latency |                      auto-date-histogram |     76.4809 |     ms |
+|                                        75th percentile latency |                      auto-date-histogram |     85.9655 |     ms |
+|                                        80th percentile latency |                      auto-date-histogram |     97.3122 |     ms |
+|                                        90th percentile latency |                      auto-date-histogram |     121.024 |     ms |
+|                                        99th percentile latency |                      auto-date-histogram |     160.912 |     ms |
+|                                      99.9th percentile latency |                      auto-date-histogram |     179.304 |     ms |
+|                                       100th percentile latency |                      auto-date-histogram |      197.01 |     ms |
+|                                   50th percentile service time |                      auto-date-histogram |     48.1747 |     ms |
+|                                   90th percentile service time |                      auto-date-histogram |     119.571 |     ms |
+|                                   99th percentile service time |                      auto-date-histogram |     159.278 |     ms |
+|                                 99.9th percentile service time |                      auto-date-histogram |     177.947 |     ms |
+|                                  100th percentile service time |                      auto-date-histogram |     195.852 |     ms |
+|                                                     error rate |                      auto-date-histogram |           0 |      % |
+|                                                 Min Throughput |              auto-date-histogram-with-tz |        1.47 |  ops/s |
+|                                                Mean Throughput |              auto-date-histogram-with-tz |         1.5 |  ops/s |
+|                                              Median Throughput |              auto-date-histogram-with-tz |         1.5 |  ops/s |
+|                                                 Max Throughput |              auto-date-histogram-with-tz |         1.5 |  ops/s |
+|                                      0th percentile throughput |              auto-date-histogram-with-tz |     1.47106 |     ms |
+|                                     25th percentile throughput |              auto-date-histogram-with-tz |     1.49612 |     ms |
+|                                     50th percentile throughput |              auto-date-histogram-with-tz |     1.49793 |     ms |
+|                                     75th percentile throughput |              auto-date-histogram-with-tz |     1.49858 |     ms |
+|                                    100th percentile throughput |              auto-date-histogram-with-tz |     1.49893 |     ms |
+|                                         0th percentile latency |              auto-date-histogram-with-tz |     11.6951 |     ms |
+|                                        10th percentile latency |              auto-date-histogram-with-tz |     54.9604 |     ms |
+|                                        20th percentile latency |              auto-date-histogram-with-tz |     92.5202 |     ms |
+|                                        25th percentile latency |              auto-date-histogram-with-tz |     117.235 |     ms |
+|                                        30th percentile latency |              auto-date-histogram-with-tz |     144.462 |     ms |
+|                                        40th percentile latency |              auto-date-histogram-with-tz |     206.428 |     ms |
+|                                        50th percentile latency |              auto-date-histogram-with-tz |     284.815 |     ms |
+|                                        60th percentile latency |              auto-date-histogram-with-tz |     365.069 |     ms |
+|                                        70th percentile latency |              auto-date-histogram-with-tz |     461.161 |     ms |
+|                                        75th percentile latency |              auto-date-histogram-with-tz |     515.583 |     ms |
+|                                        80th percentile latency |              auto-date-histogram-with-tz |     572.471 |     ms |
+|                                        90th percentile latency |              auto-date-histogram-with-tz |     701.156 |     ms |
+|                                        99th percentile latency |              auto-date-histogram-with-tz |     977.637 |     ms |
+|                                      99.9th percentile latency |              auto-date-histogram-with-tz |     1214.42 |     ms |
+|                                       100th percentile latency |              auto-date-histogram-with-tz |     1387.25 |     ms |
+|                                   50th percentile service time |              auto-date-histogram-with-tz |     261.769 |     ms |
+|                                   90th percentile service time |              auto-date-histogram-with-tz |     674.217 |     ms |
+|                                   99th percentile service time |              auto-date-histogram-with-tz |     933.259 |     ms |
+|                                 99.9th percentile service time |              auto-date-histogram-with-tz |     1021.66 |     ms |
+|                                  100th percentile service time |              auto-date-histogram-with-tz |     1064.27 |     ms |
+|                                                     error rate |              auto-date-histogram-with-tz |           0 |      % |
+
+
+-----------------------------------
+[INFO] SUCCESS (took 19154 seconds)
+-----------------------------------
+kec2-user@ip-172-31-38-73:~\[?2004h(.venv) [ec2-user@ip-172-31-38-73 ~]$ 
+[?2004lkec2-user@ip-172-31-38-73:~\[?2004h(.venv) [ec2-user@ip-172-31-38-73 ~]$ 
+[?2004lkec2-user@ip-172-31-38-73:~\[?2004h(.venv) [ec2-user@ip-172-31-38-73 ~]$ ls
+[?2004l[0m[01;34masync-profiler-3.0-linux-x64[0m         benchmark_output.txt          cluster_resource_usage.csv  iostat.out      memory_usage.txt  [01;34mos_repo[0m  [01;34mosb_core[0m
+[01;31masync-profiler-3.0-linux-x64.tar.gz[0m  benchmark_resource_usage.txt  [01;34mflamegraphs[0m                 [01;34mjstack-outputs[0m  os_output.txt     [01;34mosb[0m      vmstat.out
+kec2-user@ip-172-31-38-73:~\[?2004h(.venv) [ec2-user@ip-172-31-38-73 ~]$ cd[K[K
