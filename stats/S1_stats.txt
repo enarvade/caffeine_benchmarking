@@ -6,8 +6,8 @@
   },
   "cluster_name" : "runTask",
   "nodes" : {
-    "rWdkZNAMRN6yprOLEVy-PA" : {
-      "timestamp" : 1722606186882,
+    "2Qej6b3-SaeI_fYM5c1mVw" : {
+      "timestamp" : 1723049709676,
       "name" : "runTask-0",
       "transport_address" : "127.0.0.1:9300",
       "host" : "127.0.0.1",
@@ -24,10 +24,10 @@
       },
       "indices" : {
         "request_cache" : {
-          "memory_size_in_bytes" : 10485754,
-          "evictions" : 185267,
-          "hit_count" : 25813,
-          "miss_count" : 206587
+          "memory_size_in_bytes" : 10485559,
+          "evictions" : 220184,
+          "hit_count" : 328,
+          "miss_count" : 232072
         }
       }
     }

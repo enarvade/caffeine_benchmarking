@@ -6,8 +6,8 @@
   },
   "cluster_name" : "runTask",
   "nodes" : {
-    "HZu1ityKRKW1INbRR3d2ig" : {
-      "timestamp" : 1722606523210,
+    "_wGsYKKCT9ygmPc65iAiEA" : {
+      "timestamp" : 1723050716192,
       "name" : "runTask-0",
       "transport_address" : "127.0.0.1:9300",
       "host" : "127.0.0.1",
@@ -24,12 +24,21 @@
       },
       "caches" : {
         "request_cache" : {
-          "size_in_bytes" : 10485692,
-          "evictions" : 177692,
-          "hit_count" : 31752,
-          "miss_count" : 200648,
-          "item_count" : 12075,
-          "store_name" : "caffeine_heap"
+          "size_in_bytes" : 10485107,
+          "evictions" : 209032,
+          "hit_count" : 450,
+          "miss_count" : 231950,
+          "item_count" : 11867,
+          "tier" : {
+            "on_heap" : {
+              "size_in_bytes" : 10485107,
+              "evictions" : 209032,
+              "hit_count" : 450,
+              "miss_count" : 231950,
+              "item_count" : 11867
+            }
+          },
+          "store_name" : "tiered_spillover"
         }
       }
     }

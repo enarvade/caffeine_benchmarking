@@ -6,8 +6,8 @@
   },
   "cluster_name" : "runTask",
   "nodes" : {
-    "uS-yrGjASZe8v2ZzL8qwAQ" : {
-      "timestamp" : 1722633987472,
+    "6sKHhk_iSMmVw3QSpeZPZA" : {
+      "timestamp" : 1723150565072,
       "name" : "runTask-0",
       "transport_address" : "127.0.0.1:9300",
       "host" : "127.0.0.1",
@@ -24,25 +24,18 @@
       },
       "caches" : {
         "request_cache" : {
-          "size_in_bytes" : 106320407,
-          "evictions" : 0,
-          "hit_count" : 116060,
-          "miss_count" : 116340,
-          "item_count" : 116340,
+          "size_in_bytes" : 10485574,
+          "evictions" : 124302,
+          "hit_count" : 89573,
+          "miss_count" : 142827,
+          "item_count" : 11958,
           "tier" : {
-            "disk" : {
-              "size_in_bytes" : 95835243,
-              "evictions" : 0,
-              "hit_count" : 35669,
-              "miss_count" : 116340,
-              "item_count" : 104693
-            },
             "on_heap" : {
-              "size_in_bytes" : 10485164,
-              "evictions" : 104693,
-              "hit_count" : 80391,
-              "miss_count" : 152009,
-              "item_count" : 11647
+              "size_in_bytes" : 10485574,
+              "evictions" : 124302,
+              "hit_count" : 89573,
+              "miss_count" : 142827,
+              "item_count" : 11958
             }
           },
           "store_name" : "tiered_spillover"
