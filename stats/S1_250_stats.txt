@@ -1,0 +1,35 @@
+{
+  "_nodes" : {
+    "total" : 1,
+    "successful" : 1,
+    "failed" : 0
+  },
+  "cluster_name" : "runTask",
+  "nodes" : {
+    "yNL6_qOGToOIgCD0CJ80UQ" : {
+      "timestamp" : 1723195041020,
+      "name" : "runTask-0",
+      "transport_address" : "127.0.0.1:9300",
+      "host" : "127.0.0.1",
+      "ip" : "127.0.0.1:9300",
+      "roles" : [
+        "cluster_manager",
+        "data",
+        "ingest",
+        "remote_cluster_client"
+      ],
+      "attributes" : {
+        "testattr" : "test",
+        "shard_indexing_pressure_enabled" : "true"
+      },
+      "indices" : {
+        "request_cache" : {
+          "memory_size_in_bytes" : 204374012,
+          "evictions" : 0,
+          "hit_count" : 2192,
+          "miss_count" : 230208
+        }
+      }
+    }
+  }
+}
