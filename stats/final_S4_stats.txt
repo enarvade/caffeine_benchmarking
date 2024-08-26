@@ -1,0 +1,37 @@
+{
+  "_nodes" : {
+    "total" : 1,
+    "successful" : 1,
+    "failed" : 0
+  },
+  "cluster_name" : "runTask",
+  "nodes" : {
+    "LiSy-qN4Q_mFUbpIoAuAVQ" : {
+      "timestamp" : 1723707263903,
+      "name" : "runTask-0",
+      "transport_address" : "127.0.0.1:9300",
+      "host" : "127.0.0.1",
+      "ip" : "127.0.0.1:9300",
+      "roles" : [
+        "cluster_manager",
+        "data",
+        "ingest",
+        "remote_cluster_client"
+      ],
+      "attributes" : {
+        "testattr" : "test",
+        "shard_indexing_pressure_enabled" : "true"
+      },
+      "caches" : {
+        "request_cache" : {
+          "size_in_bytes" : 10485347,
+          "evictions" : 220004,
+          "hit_count" : 455,
+          "miss_count" : 231945,
+          "item_count" : 11941,
+          "store_name" : "caffeine_heap"
+        }
+      }
+    }
+  }
+}
